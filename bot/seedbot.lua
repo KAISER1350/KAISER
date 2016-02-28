@@ -226,29 +226,27 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
-    disabled_channels = {},
+    sudo_users = {159359772,0,tonumber(our_id)},--Sudo users
+    disabled_channels = {149123164},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[KAISER Telegram Bot v2 
+  
+KAISER v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+
+
+KAISER- A powerful Anti spam with custom sensitivity For each group
+recalcitrant to any kind of spamming(Xy bots,name|photo changers and ...)
+
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@tnt54 [Founder] @mehdi_killer78 [Developer]
+@tnt540 [Manager]
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@kingboo [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
